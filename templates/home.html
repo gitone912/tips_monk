@@ -1,0 +1,10 @@
+welcome mf
+<form action="" method="POST" enctype="multipart/form-data">
+    {% csrf_token %} 
+    {{ form.as_p }}
+    <div class="col-sm-6">
+        <input type="submit" value="Submit" class="btn btn-primary btn-block" style="height: 47px;"/>
+    </div>
+</form>
+<br>
+{{ans}}
