@@ -5,7 +5,7 @@ res = requests.post(
     "https://api.ai21.com/studio/v1/j1-jumbo/complete",
     headers={"Authorization": 'Bearer UbNRnwAaMn4WrDxgGvtMIAOM63yEuYFQ'},
     json={
-        "prompt": " how to lose weight ",
+        "prompt": " i want to open a beetle shop write a description for that\nto paste it in a heading of website in 50 words",
         "numResults": 1,
         "maxTokens": 2048,
         "temperature": 0.97,
